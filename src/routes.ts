@@ -10,4 +10,8 @@ router.get('/', (req: Request, res: Response) => {
     return res.status(200).send('Servidor rodando normalmente');
 });
 
+router.get('/status', (req: Request, res: Response) => {
+    return res.status(200).json({status: 'Servidor rodando normalmente'});
+});
+
 export { router };
