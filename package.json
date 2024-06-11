@@ -1,10 +1,10 @@
 {
   "name": "node_template",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "license": "MIT",
   "engines": {
-    "node": "21"
+    "node": "18"
   },
   "scripts": {
     "dev": "tsnd --transpile-only --respawn --ignore-watch node_modules src/server.ts",
