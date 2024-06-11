@@ -4,6 +4,8 @@ FROM node:18-alpine
 # Instale o Yarn globalmente
 RUN npm install -g yarn
 
+RUN npm install -g npm@10.8.1
+
 # Defina o diretório de trabalho no contêiner
 WORKDIR /app
 
